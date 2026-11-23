@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gustavo de Carvalho Aragão | Estudante de Sistemas de Informação</title>
+  <meta name="description" content="Portfólio de Gustavo de Carvalho Aragão, estudante de Sistemas de Informação na UDF, em busca de estágio na área de tecnologia.">
+  <meta name="theme-color" content="#080D18">
+  <meta property="og:title" content="Gustavo de Carvalho Aragão | Portfólio">
+  <meta property="og:description" content="Estudante de Sistemas de Informação construindo a trajetória na tecnologia, um código de cada vez.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ícones SVG reutilizáveis -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-term" viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 10l3 2-3 2M13 15h3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-git" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="6" cy="18" r="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="9" r="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M6 8v8M18 11c0 4-6 2-10 6" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-brain" viewBox="0 0 24 24"><path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-2 5 3 3 0 0 0 2 5 3 3 0 0 0 6 1V5a2 2 0 0 0-3-1zM15 4a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-2 5 3 3 0 0 1-6 1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6 7-11a7 7 0 0 0-14 0c0 5 7 11 7 11z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.4" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-cam" viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v5M12 16v5M3 12h5M16 12h5M6 6l3 3M15 15l3 3M18 6l-3 3M9 15l-3 3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M3 6h18v12H3zM3 7l9 7 9-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-gh" viewBox="0 0 24 24"><path d="M9 19c-4 1.200-4-2-6-2.500M15 21v-3.500c0-1 .1-1.400-.5-2 2.800-.3 5.500-1.400 5.500-6a4.600 4.600 0 0 0-1.300-3.200 4.200 4.200 0 0 0-.1-3.200s-1-.3-3.400 1.300a11.600 11.600 0 0 0-6 0C6.800 2.800 5.800 3.100 5.800 3.100a4.200 4.200 0 0 0-.1 3.200A4.600 4.600 0 0 0 4.400 9.500c0 4.600 2.700 5.700 5.500 6-.6.600-.6 1.200-.5 2V21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.200" cy="6.800" r="1" fill="currentColor"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="m6 14 6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <a class="skip" href="#sobre">Pular para o conteúdo</a>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav-in">
+      <a class="logo" href="#inicio" aria-label="Gustavo.dev, ir para o início">Gustavo<span>.dev</span></a>
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+      <nav id="menu" class="menu" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#jornada">Jornada</a>
+        <a href="#interesses">Interesses</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="wrap hero-in">
+        <div class="hero-txt">
+          <p class="hello">Olá, mundo! Eu sou</p>
+          <h1>Gustavo de Carvalho Aragão</h1>
+          <p class="typing" aria-live="off"><span id="typed"></span><span class="caret" aria-hidden="true"></span></p>
+          <p class="lead">Transformando curiosidade em conhecimento e conhecimento em projetos. Estou construindo minha trajetória na tecnologia, um código de cada vez.</p>
+          <div class="btns">
+            <a class="btn primary" href="#projetos">Conheça meu trabalho</a>
+            <a class="btn" href="#contato">Entre em contato</a>
+            <a class="btn ghost" href="https://github.com/guscarvalhol" target="_blank" rel="noopener noreferrer"><svg class="ic"><use href="#i-gh"/></svg>GitHub</a>
+          </div>
+        </div>
+
+        <!-- Núcleo orbital em SVG puro -->
+        <div class="orbit" role="img" aria-label="Ilustração de um núcleo tecnológico com órbitas e partículas">
+          <svg viewBox="0 0 400 400">
+            <defs>
+              <radialGradient id="core" cx="40%" cy="35%"><stop offset="0" stop-color="#9FF3FF"/><stop offset=".45" stop-color="#4DA3FF"/><stop offset="1" stop-color="#2a2f6e"/></radialGradient>
+              <linearGradient id="ring" x1="0" x2="1"><stop offset="0" stop-color="#55E6FF" stop-opacity="0"/><stop offset=".5" stop-color="#55E6FF"/><stop offset="1" stop-color="#8B7CFF" stop-opacity="0"/></linearGradient>
+            </defs>
+            <circle cx="200" cy="200" r="190" class="grid-c"/>
+            <circle cx="200" cy="200" r="150" class="grid-c"/>
+            <path d="M200 10v380M10 200h380" class="grid-c"/>
+            <g class="spin slow"><ellipse cx="200" cy="200" rx="170" ry="60" fill="none" stroke="url(#ring)" stroke-width="1.500" transform="rotate(-25 200 200)"/><circle cx="370" cy="200" r="5" fill="#55E6FF" transform="rotate(-25 200 200)"/></g>
+            <g class="spin rev"><ellipse cx="200" cy="200" rx="140" ry="45" fill="none" stroke="url(#ring)" stroke-width="1.500" transform="rotate(35 200 200)"/><circle cx="60" cy="200" r="4" fill="#8B7CFF" transform="rotate(35 200 200)"/></g>
+            <circle cx="200" cy="200" r="78" fill="url(#core)" class="pulse"/>
+            <path d="M170 190l-14 10 14 10M230 190l14 10-14 10M210 182l-20 36" fill="none" stroke="#EAF2FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="tag t1">HTML5</span><span class="tag t2">C</span><span class="tag t3">Git</span>
+        </div>
+      </div>
+      <a class="scroll" href="#sobre" aria-label="Rolar para a seção Sobre"><span></span></a>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="sec" id="sobre">
+      <div class="wrap">
+        <h2>Sobre mim</h2>
+        <div class="about reveal">
+          <div class="card text">
+            <p>Sou estudante de Sistemas de Informação e estou no segundo semestre da graduação. Atualmente, estou construindo minha base em tecnologia, explorando programação, desenvolvimento web, lógica e diferentes possibilidades dentro da área de TI.</p>
+            <p>Meu objetivo é transformar o aprendizado acadêmico em experiências práticas, desenvolver projetos, aprender com profissionais e conquistar minha primeira oportunidade na área.</p>
+            <p>Acredito que a tecnologia vai além do código: ela conecta pessoas, culturas, ideias e oportunidades.</p>
+          </div>
+          <div class="about-side">
+            <figure class="photo">
+              <img src="perfil.jpeg" alt="Retrato de Gustavo de Carvalho Aragão sorrindo levemente, de camiseta preta, sentado com os braços cruzados" width="960" height="1280" loading="lazy">
+            </figure>
+            <ul class="card facts" aria-label="Resumo">
+            <li><svg class="ic"><use href="#i-term"/></svg><div><b>Sistemas de Informação</b><small>UDF – Centro Universitário</small></div></li>
+            <li><svg class="ic"><use href="#i-code"/></svg><div><b>2º semestre</b><small>Graduação em andamento</small></div></li>
+            <li><svg class="ic"><use href="#i-pin"/></svg><div><b>Planaltina de Goiás, GO</b><small>Brasil, 23 anos</small></div></li>
+            <li><svg class="ic"><use href="#i-spark"/></svg><div><b>Em busca de oportunidades</b><small>Estágio e projetos</small></div></li>
+            <li><svg class="ic"><use href="#i-brain"/></svg><div><b>Aprendizado contínuo</b><small>Sempre explorando algo novo</small></div></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="sec alt" id="habilidades">
+      <div class="wrap">
+        <h2>Habilidades</h2>
+        <p class="sub">O que já uso e o que estou aprendendo, sem inflar nada.</p>
+        <div class="grid g3">
+          <article class="card reveal">
+            <svg class="ic big"><use href="#i-code"/></svg>
+            <h3>Desenvolvimento Web</h3>
+            <ul class="chips"><li>HTML5 <em>Conhecimento básico</em></li><li>CSS3 <em>Conhecimento básico</em></li><li>JavaScript <em>Em aprendizado</em></li></ul>
+          </article>
+          <article class="card reveal">
+            <svg class="ic big"><use href="#i-term"/></svg>
+            <h3>Programação</h3>
+            <ul class="chips"><li>C <em>Conhecimento básico</em></li><li>Python <em>Em aprendizado</em></li></ul>
+          </article>
+          <article class="card reveal">
+            <svg class="ic big"><use href="#i-git"/></svg>
+            <h3>Ferramentas</h3>
+            <ul class="chips"><li>Git <em>Conhecimento básico</em></li><li>GitHub <em>Conhecimento básico</em></li><li>Visual Studio Code <em>Uso diário</em></li></ul>
+          </article>
+          <article class="card reveal wide">
+            <svg class="ic big"><use href="#i-brain"/></svg>
+            <h3>Conhecimentos em desenvolvimento</h3>
+            <ul class="chips"><li>Lógica de programação <em>Explorando</em></li><li>Algoritmos <em>Explorando</em></li><li>Estrutura básica da web <em>Em aprendizado</em></li><li>Desenvolvimento de interfaces <em>Explorando</em></li><li>Pensamento computacional <em>Explorando</em></li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="sec" id="projetos">
+      <div class="wrap">
+        <h2>Projetos</h2>
+        <p class="sub">Trabalhos acadêmicos e exercícios do meu aprendizado. Os links entram conforme eu publicar cada um.</p>
+        <div class="grid g2">
+          <article class="card project reveal">
+            <span class="cat">Projeto acadêmico</span>
+            <h3>Pedal Certo – E-commerce de Bicicletas</h3>
+            <p>Análise e desenvolvimento de uma plataforma de comércio eletrônico para uma loja de bicicletas.</p>
+            <ul class="tech"><li>HTML</li><li>CSS</li><li>Lógica web</li><li>Análise de sistemas</li></ul>
+            <div class="btns">
+              <!-- EDITE: troque o href="#" pelo link público do projeto -->
+              <a class="btn sm" href="#" data-pending>Ver projeto</a>
+              <!-- EDITE: troque o href="#" pelo link do repositório -->
+              <a class="btn sm ghost" href="#" data-pending>Código</a>
+            </div>
+          </article>
+          <article class="card project reveal">
+            <span class="cat">Projeto acadêmico</span>
+            <h3>Aplicativo de Doação de Sangue</h3>
+            <p>Análise de sistemas voltada à comunicação entre hemocentros e doadores, com notificações conforme a necessidade de estoque.</p>
+            <ul class="tech"><li>UML</li><li>Análise de requisitos</li><li>Modelagem de sistemas</li></ul>
+            <div class="btns">
+              <!-- EDITE: link da documentação ou dos diagramas -->
+              <a class="btn sm" href="#" data-pending>Ver projeto</a>
+              <!-- EDITE: link do repositório -->
+              <a class="btn sm ghost" href="#" data-pending>Código</a>
+            </div>
+          </article>
+          <article class="card project reveal">
+            <span class="cat">Exercício de programação</span>
+            <h3>Calculadora de Atendimento</h3>
+            <p>Exercício em C para calcular consumo, taxa de serviço e divisão de contas.</p>
+            <ul class="tech"><li>C</li></ul>
+            <div class="btns">
+              <!-- EDITE: link da demonstração, se houver -->
+              <a class="btn sm" href="#" data-pending>Ver projeto</a>
+              <!-- EDITE: link do repositório -->
+              <a class="btn sm ghost" href="#" data-pending>Código</a>
+            </div>
+          </article>
+          <article class="card project reveal">
+            <span class="cat">Em desenvolvimento</span>
+            <h3>Projetos Web</h3>
+            <p>Espaço reservado para os próximos projetos que vou construir com HTML, CSS e JavaScript.</p>
+            <ul class="tech"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="btns">
+              <!-- EDITE: link do primeiro projeto web -->
+              <a class="btn sm" href="#" data-pending>Ver projeto</a>
+              <a class="btn sm ghost" href="https://github.com/guscarvalhol" target="_blank" rel="noopener noreferrer">Código</a>
+            </div>
+          </article>
+        </div>
+        <p class="note" id="pending-note" role="status" hidden>Este link ainda não está disponível. Em breve!</p>
+      </div>
+    </section>
+
+    <!-- JORNADA -->
+    <section class="sec alt" id="jornada">
+      <div class="wrap">
+        <h2>Minha jornada na tecnologia</h2>
+        <ol class="timeline">
+          <li class="reveal"><time>2026</time><h3>Início da graduação</h3><p>Início da graduação em Sistemas de Informação, aprofundando conhecimentos em lógica de programação, algoritmos, fundamentos da tecnologia e desenvolvimento de sistemas.</p></li>
+          <li class="reveal"><time>2026</time><h3>Construindo minha base</h3><p>Explorando linguagens como C, Python, HTML, CSS e JavaScript, além de desenvolver atividades acadêmicas e pequenos projetos.</p></li>
+          <li class="reveal next"><time>Próximo passo</time><h3>Mercado de tecnologia</h3><p>Buscando oportunidades de estágio, experiências práticas, colaboração em projetos e crescimento profissional.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- INTERESSES -->
+    <section class="sec" id="interesses">
+      <div class="wrap">
+        <h2>Além do código</h2>
+        <p class="sub">Coordenadas do que me move fora da tela.</p>
+        <div class="grid g2">
+          <article class="card hobby reveal"><svg class="ic big"><use href="#i-globe"/></svg><h3>Viajar e conhecer culturas</h3><p>Tenho interesse em viajar, conhecer novos lugares, culturas, costumes e perspectivas. Acredito que cada experiência contribui para ampliar minha visão de mundo.</p><small>Interesse</small></article>
+          <article class="card hobby reveal"><svg class="ic big"><use href="#i-code"/></svg><h3>Explorar novas tecnologias</h3><p>Gosto de explorar ferramentas, tendências, novidades e possibilidades dentro do universo tecnológico.</p><small>Interesse</small></article>
+          <article class="card hobby reveal"><svg class="ic big"><use href="#i-cam"/></svg><h3>Fotografia e observação de lugares</h3><p>Paisagens, arquitetura e lugares que despertam curiosidade, um hobby que combina com viagens e exploração.</p><small>Hobby</small></article>
+          <article class="card hobby reveal"><svg class="ic big"><use href="#i-spark"/></svg><h3>Aprendizado contínuo</h3><p>Estou sempre buscando aprender algo novo, descobrir novas possibilidades e expandir meus conhecimentos.</p><small>Interesse</small></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="sec alt" id="contato">
+      <div class="wrap contact">
+        <h2>Vamos conectar?</h2>
+        <p class="sub">Estou aberto a oportunidades de estágio, projetos, networking e conversas com pessoas que compartilham interesse por tecnologia.</p>
+        <div class="grid g2 reveal">
+          <a class="card link" href="mailto:guscarvalho342@gmail.com"><svg class="ic big"><use href="#i-mail"/></svg><div><b>Enviar e-mail</b><small>guscarvalho342@gmail.com</small></div></a>
+          <a class="card link" href="https://wa.me/5561984885633" target="_blank" rel="noopener noreferrer"><svg class="ic big"><use href="#i-chat"/></svg><div><b>Conversar pelo WhatsApp</b><small>(61) 98488-5633</small></div></a>
+          <a class="card link" href="https://github.com/guscarvalhol" target="_blank" rel="noopener noreferrer"><svg class="ic big"><use href="#i-gh"/></svg><div><b>Acessar GitHub</b><small>github.com/guscarvalhol</small></div></a>
+          <a class="card link" href="https://instagram.com/guscarvalhol" target="_blank" rel="noopener noreferrer"><svg class="ic big"><use href="#i-ig"/></svg><div><b>Acessar Instagram</b><small>@guscarvalhol</small></div></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-in">
+      <div>
+        <b>Gustavo de Carvalho Aragão</b>
+        <p>Sistemas de Informação · Planaltina de Goiás, Brasil</p>
+        <p class="muted">&copy; <span id="year">2026</span>. Desenvolvido com curiosidade, criatividade e código.</p>
+      </div>
+      <div class="soc">
+        <a href="https://github.com/guscarvalhol" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Gustavo"><svg class="ic"><use href="#i-gh"/></svg></a>
+        <a href="https://instagram.com/guscarvalhol" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Gustavo"><svg class="ic"><use href="#i-ig"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="top" id="top" aria-label="Voltar ao topo" hidden><svg class="ic"><use href="#i-up"/></svg></button>
+  <script src="script.js"></script>
+</body>
+</html>
